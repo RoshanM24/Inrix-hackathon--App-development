@@ -1,0 +1,43 @@
+{
+  "name": "multiplayer-usermanagement",
+  "version": "1.0.0",
+  "description": "multiplayer-usermanagement API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "dependencies": {
+    "aws-sdk": "^2.916.0",
+    "axios": "^1.6.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^6.4.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.2",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyrannix/realx-backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyrannix/realx-backend/issues"
+  },
+  "homepage": "https://github.com/Tyrannix/realx-backend"
+}
